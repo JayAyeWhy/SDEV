@@ -1,0 +1,6 @@
+print("Enter your name: ")
+Name = input()
+print("Enter your birth year: ")
+Year = input()
+Age = 2023 - int(Year)
+print(str(Name) + " was born in " + str(Year) + ". On January 1st of this year, he was " + str(Age) + " years old.")
