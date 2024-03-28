@@ -1,0 +1,13 @@
+letter = 'e'
+vowelString = 'aeiou'
+if letter in vowelString:
+    print(letter, 'is a vowel letter')
+else: 
+    print(letter, 'is not a vowel letter')
+
+# e is a vowel letter
+# set {'o', 'e', 'o'}... prints only o and e
+#dictionary {'a': 'airplane', 'e':'eat'} ... ({'key' : 'value'})... print(a) = airplane
+last_name = input("Please input your last name:")
+first_name = input("Please input your first name:")
+gpa = float( input('Please input your GPA as a float number'))
