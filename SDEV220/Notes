@@ -8,6 +8,9 @@ else:
 # e is a vowel letter
 # set {'o', 'e', 'o'}... prints only o and e
 #dictionary {'a': 'airplane', 'e':'eat'} ... ({'key' : 'value'})... print(a) = airplane
-last_name = input("Please input your last name:")
-first_name = input("Please input your first name:")
-gpa = float( input('Please input your GPA as a float number'))
+
+#SLICING
+
+name = "Bro Code"
+First_name = name[0:3]
+print(First_name)

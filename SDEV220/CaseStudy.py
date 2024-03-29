@@ -1,3 +1,7 @@
+# Ja'xon Sibley
+# Case Study app
+# This program will see the users gpa and tell them if they made the dean list or honor roll
+
 loop = True
 while loop:
     last_name = input("Please input your last name: ")
