@@ -1,0 +1,23 @@
+# This class would hold the array for the all the tables in the resturant
+class AllTables():
+    def __init__():
+        return
+    #Display_tables()
+        # and will print a visual layout in the terminal
+        # Layout will show table number or if taken/ has a resevation
+
+# This class will create the table objects
+class Table():
+    def __init__(self, table_number, seats, in_use, order_taken):
+        return
+    # addtable()
+    # takeorder()
+    # isused()
+
+# This class will give tables a reservation if needed
+class Resevation():
+    def __init__(self, name, time, num_of_people, checked_in):
+        return
+    #AddResevation()
+    
+    
