@@ -8,7 +8,7 @@ class AllTables():
 
 # This class will create the table objects
 class Table():
-    def __init__(self, table_number, seats, in_use, order_taken):
+    def __init__(self, table_number, seats, in_use, order):
         return
     # addtable()
     # takeorder()
@@ -19,5 +19,7 @@ class Resevation():
     def __init__(self, name, time, num_of_people, checked_in):
         return
     #AddResevation()
-    
+class order():
+    def __init__(self, ):
+        return
     
