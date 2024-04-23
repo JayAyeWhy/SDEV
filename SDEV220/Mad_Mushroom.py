@@ -6,11 +6,17 @@ class AllTables():
     # Add a table to the list
     def addtable(self, table):
         self.all_tables.append(table)
+
     # Method will print all the tables in the list with the table # + if its in use + if theres a resevation
     def display_tables(self):
         print(self.all_tables[0].in_use)
         for i in range(len(self.all_tables)):   
             print("Table #" + str(self.all_tables[i].table_number) + ": In_used -" + str(Table.check_in_use(self.all_tables[i])) + ". Resevation -" + str(Table.check_resevation(self.all_tables[i])))
+    def next_table_number(self):
+        counter = len(self.all_tables)
+        return counter + 1
+    def addsingle(self):
+        table = Table(4,)
 
 class Table():
     def __init__(self, table_number, in_use = False, resevation = None): #, seats, order_taken): ... I havent worked on the other paremeter bc they are not important rn
@@ -50,6 +56,8 @@ print(Table.check_resevation(t2))
 Billy = Resevation("Billy")
 t2.set_resevation(Billy)
 print(Table.check_resevation(t2))
+qwe = table_list.next_table_number()
+print(qwe)
 
 
 # Totally not finished but heres some things for the future code and questions
